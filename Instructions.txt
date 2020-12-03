@@ -1,0 +1,3 @@
+Make sure to cd into this file.
+RUN  docker build --tag my-apache-php-app2 .
+RUN  docker run --publish 80:80 --detach --name bb  my-apache-php-app2  
