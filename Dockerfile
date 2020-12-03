@@ -1,5 +1,4 @@
 FROM ubuntu:12.04
-MAINTAINER Alexander Schenkel <alex@alexi.ch>
 
 VOLUME ["/var/www"]
 
